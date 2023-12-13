@@ -82,7 +82,11 @@ let evenNumbers = numbers.filter(function(number) {
 });
 console.log('Jämna tal i arrayen: ' + evenNumbers);
 
-//Övning 14: Använd forEach
+//Övning 14: Använd forEach Använd forEach-metoden för att skriva ut varje färg i arrayen colors.
+colors.forEach(function(color) {
+    console.log('Färg: ' + color);
+});
+
 
 numbers.forEach(function(number) {
     console.log('Tal: ' + number);
